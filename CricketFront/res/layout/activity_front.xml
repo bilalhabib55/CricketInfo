@@ -1,70 +1,73 @@
- <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tablelayout"
-    android:layout_width="fill_parent"
-    android:layout_height="match_parent" 
-    android:background="@drawable/aesthetics0176">
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aesthetics" >
 
-    <TableRow>
-      <ImageView
-        android:id="@+id/phone_image"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
-        android:layout_gravity="left"
-        android:gravity="left"
-        android:src="@drawable/startleft0176"
-        />
-      </TableRow>
-    
-    <TableRow 
-     android:id="@+id/TableRow01" 
-     android:layout_width="50dp"
-     android:layout_height="50dp">
-     <Button 
-        android:id="@+id/ok"
-        android:gravity="left"
-        android:layout_gravity="left"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Upcoming Match Update" />
-     </TableRow>
-     
-     <TableRow >
-     <Button 
-        android:id="@+id/cancel"
-        android:gravity="left"
-        android:layout_gravity="left"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Blogs"
-         />
-     </TableRow>
-     
-     <TableRow >
-     <Button
-        android:id="@+id/hello"
-        android:gravity="left"
-        android:layout_gravity="left"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Records"
-         />
-     </TableRow>
-     
-     <TableRow>
-     <Button 
-        android:id="@+id/hi"
-        android:gravity="left"
-        android:layout_gravity="left"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TeamsInfo"
-       
-         />
-      </TableRow> 
-     
-     
-      </TableLayout>
-    
-      
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/phone_image"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:contentDescription= "@string/image_description"
+                android:src="@drawable/startleft0176" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="50dp"
+            android:layout_height="50dp" >
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Upcoming Match Update" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Blogs" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Records" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/hi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="TeamsInfo" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
