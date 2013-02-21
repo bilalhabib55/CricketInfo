@@ -11,6 +11,8 @@ public class FrontActivity extends Activity {
         setContentView(R.layout.activity_front);
     }
 
+
+//THis is a test
 //    @Override
 //    public boolean onCreateOptionsMenu(final Menu menu) {
 //        getMenuInflater().inflate(R.menu.activity_front, menu);
